@@ -24,7 +24,7 @@
     "name": "Dragonlearn.inGame",
     "author": "",
     "windowWidth": 1920,
-    "windowHeight": 1080,
+    "windowHeight": 1040,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -204,15 +204,12 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.2308
+        "zoomFactor": 0.6068
       },
       "objectsGroups": [
         {
           "name": "GroupLevel1",
           "objects": [
-            {
-              "name": "ImgLv1"
-            },
             {
               "name": "TextLv1"
             }
@@ -233,8 +230,8 @@
           "locked": false,
           "name": "TitleGame",
           "width": 218,
-          "x": 807,
-          "y": 94,
+          "x": 717,
+          "y": 108,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -248,8 +245,8 @@
           "locked": false,
           "name": "TextLv1",
           "width": 147,
-          "x": 661,
-          "y": 325,
+          "x": 432,
+          "y": 651,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -258,28 +255,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 166,
-          "layer": "",
-          "locked": false,
-          "name": "ImgLv1",
-          "width": 162,
-          "x": 654,
-          "y": 146,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 166,
+          "height": 328,
           "layer": "",
           "locked": false,
           "name": "ImgLv3",
-          "width": 162,
-          "x": 1058,
-          "y": 147,
+          "width": 318,
+          "x": 1166,
+          "y": 291,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -288,13 +270,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 166,
+          "height": 328,
           "layer": "",
           "locked": false,
           "name": "ImgLv2",
-          "width": 162,
-          "x": 858,
-          "y": 146,
+          "width": 318,
+          "x": 794,
+          "y": 291,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -308,8 +290,8 @@
           "locked": false,
           "name": "TextLv2",
           "width": 0,
-          "x": 867,
-          "y": 325,
+          "x": 811,
+          "y": 650,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -323,9 +305,24 @@
           "locked": false,
           "name": "TextLv3",
           "width": 0,
-          "x": 1074,
-          "y": 324,
+          "x": 1214,
+          "y": 652,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 328,
+          "layer": "",
+          "locked": false,
+          "name": "ImgLv1",
+          "width": 318,
+          "x": 411,
+          "y": 291,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -344,7 +341,7 @@
           "behaviors": [],
           "string": "Single-digits and ten\n",
           "font": "",
-          "characterSize": 25,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -363,7 +360,7 @@
           "behaviors": [],
           "string": "Tens and ones. Part 1",
           "font": "",
-          "characterSize": 15,
+          "characterSize": 28,
           "color": {
             "b": 0,
             "g": 0,
@@ -371,7 +368,7 @@
           }
         },
         {
-          "bottomMargin": 10,
+          "bottomMargin": 0,
           "height": 32,
           "leftMargin": 0,
           "name": "ImgLv1",
@@ -397,7 +394,7 @@
           "behaviors": [],
           "string": "Tens and ones. Part 2",
           "font": "",
-          "characterSize": 15,
+          "characterSize": 28,
           "color": {
             "b": 0,
             "g": 0,
@@ -431,7 +428,7 @@
           "behaviors": [],
           "string": "Counting up to 20",
           "font": "",
-          "characterSize": 15,
+          "characterSize": 28,
           "color": {
             "b": 0,
             "g": 0,
@@ -1091,7 +1088,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
