@@ -3222,7 +3222,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.4
+        "zoomFactor": 0.76
       },
       "objectsGroups": [],
       "variables": [],
@@ -3343,21 +3343,6 @@
           "x": 951,
           "y": 398,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "width": 0,
-          "x": 615,
-          "y": 400,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3606,7 +3591,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "NewObject",
+          "name": "Ques_1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -3980,10 +3965,24 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Ques_1",
+                "615",
+                "400",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Montre"
               },
               "parameters": [
-                "NewObject",
+                "Ques_1",
                 ""
               ],
               "subInstructions": []
