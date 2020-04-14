@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\dotha\\Desktop\\CNPM-Project\\DragonLearn.in-Gdevelope\\My project\\game.json",
+    "projectFile": "C:\\Users\\dotha\\Desktop\\New folder\\DragonLearn.in-Gdevelope\\My project\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1326,7 +1326,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.76
+        "zoomFactor": 0.4
       },
       "objectsGroups": [],
       "variables": [],
