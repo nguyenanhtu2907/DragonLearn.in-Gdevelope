@@ -339,16 +339,15 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-<<<<<<< HEAD
         "zoomFactor": 0.4208
-=======
-        "zoomFactor": 0.6068
->>>>>>> ba8a3713894ea8c521d0c51cd0298a697aaf7597
       },
       "objectsGroups": [
         {
           "name": "GroupLevel1",
           "objects": [
+            {
+              "name": "ImgLv1"
+            },
             {
               "name": "TextLv1"
             }
@@ -369,8 +368,8 @@
           "locked": false,
           "name": "TitleGame",
           "width": 218,
-          "x": 717,
-          "y": 108,
+          "x": 807,
+          "y": 94,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -384,8 +383,8 @@
           "locked": false,
           "name": "TextLv1",
           "width": 147,
-          "x": 432,
-          "y": 651,
+          "x": 661,
+          "y": 325,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -394,13 +393,28 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 328,
+          "height": 166,
+          "layer": "",
+          "locked": false,
+          "name": "ImgLv1",
+          "width": 162,
+          "x": 654,
+          "y": 146,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 166,
           "layer": "",
           "locked": false,
           "name": "ImgLv3",
-          "width": 318,
-          "x": 1166,
-          "y": 291,
+          "width": 162,
+          "x": 1058,
+          "y": 147,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -409,13 +423,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 328,
+          "height": 166,
           "layer": "",
           "locked": false,
           "name": "ImgLv2",
-          "width": 318,
-          "x": 794,
-          "y": 291,
+          "width": 162,
+          "x": 858,
+          "y": 146,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -429,8 +443,8 @@
           "locked": false,
           "name": "TextLv2",
           "width": 0,
-          "x": 811,
-          "y": 650,
+          "x": 867,
+          "y": 325,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -444,24 +458,9 @@
           "locked": false,
           "name": "TextLv3",
           "width": 0,
-          "x": 1214,
-          "y": 652,
+          "x": 1074,
+          "y": 324,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 328,
-          "layer": "",
-          "locked": false,
-          "name": "ImgLv1",
-          "width": 318,
-          "x": 411,
-          "y": 291,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -480,7 +479,7 @@
           "behaviors": [],
           "string": "Single-digits and ten\n",
           "font": "",
-          "characterSize": 45,
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
@@ -499,7 +498,7 @@
           "behaviors": [],
           "string": "Tens and ones. Part 1",
           "font": "",
-          "characterSize": 28,
+          "characterSize": 15,
           "color": {
             "b": 0,
             "g": 0,
@@ -507,7 +506,7 @@
           }
         },
         {
-          "bottomMargin": 0,
+          "bottomMargin": 10,
           "height": 32,
           "leftMargin": 0,
           "name": "ImgLv1",
@@ -533,7 +532,7 @@
           "behaviors": [],
           "string": "Tens and ones. Part 2",
           "font": "",
-          "characterSize": 28,
+          "characterSize": 15,
           "color": {
             "b": 0,
             "g": 0,
@@ -567,7 +566,7 @@
           "behaviors": [],
           "string": "Counting up to 20",
           "font": "",
-          "characterSize": 28,
+          "characterSize": 15,
           "color": {
             "b": 0,
             "g": 0,
@@ -1227,11 +1226,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-<<<<<<< HEAD
         "zoomFactor": 0.31
-=======
-        "zoomFactor": 0.37
->>>>>>> ba8a3713894ea8c521d0c51cd0298a697aaf7597
       },
       "objectsGroups": [],
       "variables": [],
@@ -1389,8 +1384,8 @@
           "locked": false,
           "name": "Bgr_Start",
           "width": 0,
-          "x": 960,
-          "y": 400,
+          "x": 955,
+          "y": 397,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1452,6 +1447,21 @@
           "x": 970,
           "y": 400,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "width": 0,
+          "x": 615,
+          "y": 400,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1698,7 +1708,7 @@
           ]
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "NewObject",
           "smoothed": true,
@@ -1709,7 +1719,7 @@
           "behaviors": [],
           "string": "Total number of blocks:     ten and       ones",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -2067,6 +2077,17 @@
               },
               "parameters": [
                 "Start",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewObject",
                 ""
               ],
               "subInstructions": []

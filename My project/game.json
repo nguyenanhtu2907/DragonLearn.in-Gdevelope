@@ -1326,7 +1326,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.76
+        "zoomFactor": 0.4
       },
       "objectsGroups": [],
       "variables": [],
@@ -1384,8 +1384,8 @@
           "locked": false,
           "name": "Bgr_Start",
           "width": 0,
-          "x": 960,
-          "y": 400,
+          "x": 955,
+          "y": 397,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1447,6 +1447,21 @@
           "x": 970,
           "y": 400,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "width": 0,
+          "x": 615,
+          "y": 400,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1693,7 +1708,7 @@
           ]
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "NewObject",
           "smoothed": true,
@@ -1704,7 +1719,7 @@
           "behaviors": [],
           "string": "Total number of blocks:     ten and       ones",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -1823,30 +1838,6 @@
                 "\"0;117;255\""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Bgr_Start",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Start",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -1874,23 +1865,23 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeScale"
+                "value": "ChangeColor"
               },
               "parameters": [
-                "Bgr_Start",
-                "=",
-                "1.2"
+                "Start",
+                "\"255;255;255\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeColor"
+                "value": "ChangeScale"
               },
               "parameters": [
-                "Start",
-                "\"255;255;255\""
+                "Bgr_Start",
+                "=",
+                "1.2"
               ],
               "subInstructions": []
             },
@@ -1937,6 +1928,42 @@
               "parameters": [
                 "Start",
                 "\"255;235;0\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Start",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Bgr_Start",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "Screen",
+                "=",
+                "200"
               ],
               "subInstructions": []
             }
@@ -2050,6 +2077,17 @@
               },
               "parameters": [
                 "Start",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewObject",
                 ""
               ],
               "subInstructions": []
